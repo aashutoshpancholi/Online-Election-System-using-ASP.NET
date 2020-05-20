@@ -1,0 +1,128 @@
+﻿<%@ Master Language="VB" CodeFile="user.master.vb" Inherits="user_user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Election a Society and People Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Election Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!---strat-slider---->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header_bg">
+		<div class="container">
+			<!-----start-header----->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo1.jpg" alt=" " /></a>
+				</div>
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="act"><a href="home.aspx">Home</a></li>
+							<li>
+								<a href="election.aspx" class="act">Elections</a>	
+							</li>
+							<li><a href="candidate.aspx">Candidates</a></li>
+							<li><a href="result.aspx">Result</a></li>
+							<li><a href="feedback.aspx">Feedback</a></li>
+							<li><a href="logout.aspx">Logout</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->	
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="header_bottom">
+	</div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+		<div class="container">
+
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<p>Station Road,Jasden
+						Gujrat
+					<a href="mailto:info@example.com">Election@myhome.com</a>
+					<p>Phone : +91 9914 9914 74</p>
+				</div>
+				<div class="col-md-2 footer-grid">
+					<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+						
+						<li><a href="#">Terms</a></li>
+					</ul>
+				</div>
+				
+				
+				<div class="col-md-3 footer-grid">
+					
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-copy">
+				<p>&copy 2017 Election. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+		<!-- scroll_top_btn -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+	    <script type="text/javascript">
+	        $(document).ready(function () {
+
+	            var defaults = {
+	                containerID: 'toTop', // fading element id
+	                containerHoverID: 'toTopHover', // fading element hover id
+	                scrollSpeed: 1200,
+	                easingType: 'linear'
+	            };
+
+
+	            $().UItoTop({ easingType: 'easeOutQuart' });
+
+	        });
+		</script>
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+		<!--end scroll_top_btn -->
+<!-- for bootstrap working -->
+	 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- //for bootstrap working -->
+    </form>
+</body>
+</html>
